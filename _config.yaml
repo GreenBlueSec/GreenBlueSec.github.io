@@ -1,0 +1,18 @@
+remote_theme: pages-themes/dark-poole
+plugins:
+- jekyll-remote-theme
+- jekyll-feed
+- jekyll-sitemap
+title: GreenBlue Security
+description: Personal Cybersecurity Research & Insights
+author: "Abraham Judisch"
+email: greenbluesec@proton.me
+
+# Social links (optional)
+social:
+  github: https://github.com/GreenBlueSec
+  linkedin: https://www.linkedin.com/in/abrahamjudisch-507sec/
+
+# Blog settings
+permalink: /blog/:year/:month/:day/:title/
+paginate: 5
