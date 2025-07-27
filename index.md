@@ -5,12 +5,11 @@ title: Home
 
 # Welcome to My Cybersecurity Blog
 
-I'm [Your Name], a cybersecurity professional sharing insights on:
+I'm Abraham, a cybersecurity professional sharing insights on:
 
 - **Professional Development** - Breaking down my journey into professional cybersecurity
 - **Security Tools** - Reviews and tutorials for security tools
 - **Digital Privacy** - Protecting personal and organizational data
-- **Incident Response** - Lessons learned from security incidents
 - **Research** - Original security research and findings
 
 ## Latest Posts
