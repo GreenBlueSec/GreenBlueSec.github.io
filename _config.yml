@@ -16,3 +16,18 @@ social:
 # Blog settings
 permalink: /blog/:year/:month/:day/:title/
 paginate: 5
+
+sass:
+  style: compressed
+
+# Add this under existing fields
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+
+# Enable custom CSS
+include:
+  - assets/css/style.css
