@@ -1,12 +1,106 @@
+/* ==== Base Layout ==== */
 body {
-  font-family: 'Segoe UI', sans-serif;
-  line-height: 1.6;
-  background-color: #08370c;
-  color: #e0e0e0;
+  background-color: #0b2e13; /* Dark forest green */
+  color: #e6e6e6;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  line-height: 1.7;
+  margin: 0;
+  padding: 1.5rem;
 }
 
-h1, h2, h3 {
-  color: #00d9ff;
-  border-bottom: 1px solid #444;
-  padding-bottom: 0.2em;
+/* ==== Typography ==== */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  border-left: 4px solid #00ffff; /* Electric blue accent */
+  padding-left: 0.5em;
+  color: #00ffff;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+/* ==== Links ==== */
+a {
+  color: #ff00aa; /* Hot pink */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffff33; /* Neon yellow on hover */
+  text-decoration: underline;
+}
+
+/* ==== Code Blocks ==== */
+code, pre {
+  background-color: #122c1d;
+  color: #00ffff;
+  font-family: 'Courier New', monospace;
+  padding: 0.3em 0.5em;
+  border-radius: 4px;
+}
+
+/* ==== Lists ==== */
+ul, ol {
+  padding-left: 1.2em;
+}
+
+/* ==== Blockquotes ==== */
+blockquote {
+  border-left: 4px solid #ff00aa;
+  background-color: #13331e;
+  padding: 0.75em 1em;
+  margin: 1em 0;
+  color: #d0d0d0;
+  font-style: italic;
+}
+
+/* ==== Buttons ==== */
+button, .btn {
+  background-color: #00ffff;
+  color: #0b2e13;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: #ff00aa;
+  color: #fff;
+}
+
+/* ==== Footer or Metadata ==== */
+footer, .site-footer {
+  color: #888;
+  font-size: 0.85em;
+  margin-top: 2rem;
+  border-top: 1px solid #222;
+  padding-top: 1rem;
+}
+
+/* ==== Highlight Elements ==== */
+.highlight, mark {
+  background-color: #ffff33;
+  color: #0b2e13;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+/* ==== Optional Container Styling ==== */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
 }
