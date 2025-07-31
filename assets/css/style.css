@@ -14,7 +14,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5em;
   border-left: 4px solid #00ffff; /* Electric blue accent */
   padding-left: 0.5em;
-  color: #00ffff;
 }
 
 h1 {
@@ -31,7 +30,8 @@ h3 {
 
 /* ==== Links ==== */
 a {
-  color: #ff00aa; /* Hot pink */
+  color: #00ffff;
+  /* color: #ff00aa; /* Hot pink */
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -101,7 +101,7 @@ footer, .site-footer {
 
 /* ==== Optional Container Styling ==== */
 .container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 1rem;
 }
