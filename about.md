@@ -7,7 +7,7 @@ permalink: /about/
 
 Hi, I’m **Abraham Judisch** a cybersecurity professional with a passion for defending critical infrastructure. I currently work as an Information Security Engineer at Hennepin Healthcare, where I focus on strengthening enterprise defenses, streamlining incident response, and advancing risk governance practices. My journey into cybersecurity has taken me through roles in both the public and private sectors. I bring a hybrid background in hands-on security operations, compliance, cloud architecture, and team enablement, informed by my training in martial arts and professional services.
 
-I plan to use my abilities not just for financial gain, but also to support my community. I believe it is the individuals responsibilty to invest in itself in order to support their community and it is the communities responsibility to invest in itself in order to support the individual.
+I plan to use my abilities not just for financial gain, but also to support my community. I believe it is the individual's responsibility to invest in itself in order to support their community and it is the community's responsibility to invest in itself in order to support the individual.
 
 So, why GreenBlue? Well, simply enough I love the color green and I'm a blue teamer. Blue teamer meaning that I focus on defending information systems and assets. Partially because that aligns with my morals, but also because I have little to no red team skill... for now.
 
