@@ -5,9 +5,11 @@ permalink: /about/
 ---
 # About Me
 
-Hi, I’m **Abraham Judisch** a cybersecurity professional with a passion for defending critical infrastructure. I currently work as an Information Security Engineer at Hennepin Healthcare, where I focus on strengthening enterprise defenses, streamlining incident response, and advancing risk governance practices.
+Hi, I’m **Abraham Judisch** a cybersecurity professional with a passion for defending critical infrastructure. I currently work as an Information Security Engineer at Hennepin Healthcare, where I focus on strengthening enterprise defenses, streamlining incident response, and advancing risk governance practices. My journey into cybersecurity has taken me through roles in both the public and private sectors. I bring a hybrid background in hands-on security operations, compliance, cloud architecture, and team enablement, informed by my training in martial arts and professional services.
 
-My journey into cybersecurity has taken me through roles in both the public and private sectors, including time at Kipsu Inc. and Ernst & Young. I bring a hybrid background in hands-on security operations, compliance, cloud architecture, and team enablement — all informed by my training in martial arts and professional services.
+I plan to use my abilities not just for financial gain, but also to support my community. I believe it is the individuals responsibilty to invest in itself in order to support their community and it is the communities responsibility to invest in itself in order to support the individual.
+
+So, why GreenBlue? Well, simply enough I love the color green and I'm a blue teamer. Blue teamer meaning that I focus on defending information systems and assets. Partially because that aligns with my morals, but also because I have little to no red team skill... for now.
 
 ---
 
@@ -17,23 +19,11 @@ My journey into cybersecurity has taken me through roles in both the public and 
   - Security Operations Center buildout
   - Custom detection rule development using KQL, PowerShell, and Python
   - SOAR implementation and workflow automation
-  - Digital forensics and incident response
+  - Incident response and behavioral analysis
 
 - **Enterprise & Cloud Security Architecture**
   - Microsoft security stack: Active Directory, AD FS, M365 Defender Suite, Entra ID, Azure Security Center
-  - Multi-cloud security operations (Azure, AWS) with native tooling integration
-  - Identity & Access Management: Imprivata OneSign, Okta SSO, Duo MFA
   - Zero Trust Architecture implementation and endpoint security
-
-- **Vulnerability Management & Risk Assessment**
-  - Enterprise vulnerability programs using Asimily, Tenable (cloud/on-prem), and AWS Inspector
-  - Risk assessments and compliance evaluations for Fortune 500 environments
-  - Integration of security scanning into DevSecOps CI/CD pipelines
-
-- **Automation & DevSecOps**
-  - PowerShell, Python, KQL, and Bash scripting for security automation
-  - GitHub Actions and Bitbucket pipeline integration
-  - Infrastructure security using Bitbucket, Jira, Confluence, and ServiceNow workflows
 
 - **Compliance & Frameworks**
   - NIST CSF, MITRE ATT&CK, OWASP Top 10 implementation
