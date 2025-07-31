@@ -1,8 +1,15 @@
-remote_theme: pages-themes/slate
+# We are no longer using a remote theme
+theme: null
+
+# Ensure custom CSS is included
+include:
+  - assets/css/style.css
+
+# Plugins (still useful)
 plugins:
-- jekyll-remote-theme
-- jekyll-feed
-- jekyll-sitemap
+  - jekyll-feed
+  - jekyll-sitemap
+
 title: GreenBlue Security
 description: Personal Cybersecurity Research & Insights
 author: "Abraham Judisch"
@@ -20,14 +27,9 @@ paginate: 5
 sass:
   style: compressed
 
-# Add this under existing fields
 defaults:
   - scope:
       path: ""
       type: "posts"
     values:
       layout: post
-
-# Enable custom CSS
-include:
-  - assets/css/style.css
