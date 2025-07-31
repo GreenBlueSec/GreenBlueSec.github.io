@@ -1,6 +1,6 @@
 /* ==== Base Layout ==== */
 body {
-  background-color: #0b2e13; /* Dark forest green */
+  background-color: #061b0b; /* Darker forest green */
   color: #e6e6e6;
   font-family: 'Segoe UI', 'Roboto', sans-serif;
   line-height: 1.7;
@@ -101,6 +101,7 @@ footer, .site-footer {
 
 /* ==== Optional Container Styling ==== */
 .container {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 0 1rem;
 }
