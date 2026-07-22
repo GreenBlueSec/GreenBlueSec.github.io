@@ -1,26 +1,28 @@
 # GreenBlueSecurity
 
-##  Hi there! I'm Abraham, a Security Engineer developing aptitude in cybersecurity
-Welcome to my GitHub! My goal with this repo is to share my passion for **Blue Teaming**, **Security Automation**, and **Mentorship** with the cybersecurity community in hopes of both developing my aptitude and helping my fellow cybersec practitioners.
+## Hullo, I'm Abraham — a security engineer focused on identity & access management, incident response, and detection engineering.
+
+I've spent the last 8 years in security operations and engineering. This repo is where I share what I'm building, learning, and teaching along the way: blue team techniques, security automation, and mentorship for people earlier in their career than me.
 
 ### What You'll Find Here
-**Learning Resources**
-- Recommendations for beginners in cybersecurity who want to learn more about
-    - Developing Blue Team or Risk Management Skills
-    - Obtaining their CISSP
-- Study materials for Azure Security (AZ-500) and other certifications
-**My CyberSec Journey**
+
+- Notes and resources from my own path to CISSP and continued self-directed learning
+- Hands-on research in malware analysis, reverse engineering, and embedded hardware security
+- Mentorship-oriented resources for people building blue team or risk management skills
+- Writing on my [blog](https://greenblueSec.github.io) — Blue Team Budo, Surveillance Self-Defense and beyond
 
 ### Currently Working On
-- **Security Research** - Hands-on learning environment for AZ-500, reverse engineering (MalwareTechLabs and TryHackMe), and embedded hardware systems
-- **Development and Programming** - Exploring LLM applications, web development, and **[Cybersecurity Blog](https://greenblueSec.github.io)** 
-- **Public Speaking** - Blue Team Budo: Developing your cybersecurity skills like a martial artist
+
+- Speaking: "The Resilient Node" (main stage, SecretCon 2026), "Blue Team Budo" (SecretCon and Minneapolis Cybersecurity Summit, 2025)
+- Mobile Privacy with the use of GrapheneOS, Meshtastic, and secure mobile networks
+- Other IT projects like home network monitoring, IoT security research, and automated irrigation
+- Exploring LLM applications and web development for this site
+
 
 ### Recent Highlights
-- **SECRETCON 2025**
-    - Presented "Blue Team Budo" 
-    - **CTF Winner** - Member of winning team (20+ teams)
-- **Active Learner** - AZ-900 and TryHackMe progress
+
+- **CTF Winner, SecretCon 2025** — member of the winning team (20+ teams competing)
+- Repeat conference speaker, 2025–2026
 
 ### Languages & Tools
 ![PowerShell](https://img.shields.io/badge/-PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
