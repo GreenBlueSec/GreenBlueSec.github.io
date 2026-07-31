@@ -1,114 +1,173 @@
-/* ==== Base Layout ==== */
+/* ==== Fonts ====
+   Self-hosted, not Google Fonts CDN. Download and place in assets/fonts/:
+   - Inter: https://github.com/rsms/inter (SIL Open Font License)
+   - JetBrains Mono: https://github.com/JetBrains/JetBrainsMono (Apache 2.0)
+   Fallback stack below works with zero downloads if you skip that step. */
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/assets/fonts/Inter-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/assets/fonts/JetBrainsMono-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+
+:root {
+  --bg: #0a0d0a;
+  --bg-panel: #10140f;
+  --border: #1e281e;
+  --text: #d4d8d4;
+  --text-dim: #8a938a;
+  --accent: #39e673;
+  --accent-dim: #1f7a44;
+  --accent-warn: #e6b339;
+
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+}
+
+* { box-sizing: border-box; }
+
 body {
-  background-color: #061b0b; /* Darker forest green */
-  color: #e6e6e6;
-  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
   line-height: 1.7;
   margin: 0;
-  padding: 1.5rem;
+  padding: 0;
+}
+
+/* ==== Nav ==== */
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--bg-panel);
+  border-bottom: 1px solid var(--border);
+}
+
+.nav-brand {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.nav-links a {
+  margin-left: 1.5rem;
+  color: var(--text-dim);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: var(--accent);
 }
 
 /* ==== Typography ==== */
 h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-mono);
   font-weight: 600;
+  color: var(--text);
   margin-bottom: 0.5em;
-  border-left: 4px solid #00ffff; /* Electric blue accent */
-  padding-left: 0.5em;
 }
 
 h1 {
   font-size: 2rem;
+  border-left: 3px solid var(--accent);
+  padding-left: 0.6em;
 }
 
 h2 {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
+  border-left: 3px solid var(--accent-dim);
+  padding-left: 0.6em;
 }
 
 h3 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  color: var(--text-dim);
 }
 
 /* ==== Links ==== */
 a {
-  color: #00ffff;
-  /* color: #ff00aa; /* Hot pink */
+  color: var(--accent);
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: color 0.2s ease;
 }
 
 a:hover {
-  color: #ffff33; /* Neon yellow on hover */
+  color: #ffffff;
   text-decoration: underline;
 }
 
-/* ==== Code Blocks ==== */
+/* ==== Code ==== */
 code, pre {
-  background-color: #122c1d;
-  color: #00ffff;
-  font-family: 'Courier New', monospace;
+  background-color: var(--bg-panel);
+  color: var(--accent);
+  font-family: var(--font-mono);
   padding: 0.3em 0.5em;
-  border-radius: 4px;
+  border-radius: 3px;
+  border: 1px solid var(--border);
 }
 
 /* ==== Lists ==== */
 ul, ol {
-  padding-left: 1.2em;
+  padding-left: 1.3em;
+}
+
+li {
+  margin-bottom: 0.4em;
 }
 
 /* ==== Blockquotes ==== */
 blockquote {
-  border-left: 4px solid #ff00aa;
-  background-color: #13331e;
+  border-left: 3px solid var(--accent-warn);
+  background-color: var(--bg-panel);
   padding: 0.75em 1em;
   margin: 1em 0;
-  color: #d0d0d0;
+  color: var(--text-dim);
   font-style: italic;
 }
 
 /* ==== Buttons ==== */
 button, .btn {
-  background-color: #00ffff;
-  color: #0b2e13;
+  background-color: var(--accent);
+  color: var(--bg);
   border: none;
   padding: 0.6em 1.2em;
-  font-weight: bold;
-  border-radius: 6px;
+  font-family: var(--font-mono);
+  font-weight: 600;
+  border-radius: 4px;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: background 0.2s ease;
 }
 
 button:hover, .btn:hover {
-  background-color: #ff00aa;
-  color: #fff;
+  background-color: #ffffff;
 }
 
-/* ==== Footer or Metadata ==== */
+/* ==== Footer ==== */
 footer, .site-footer {
-  color: #888;
+  color: var(--text-dim);
   font-size: 0.85em;
-  margin-top: 2rem;
-  border-top: 1px solid #222;
-  padding-top: 1rem;
+  margin-top: 3rem;
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 2rem;
 }
 
-/* ==== Highlight Elements ==== */
-.highlight, mark {
-  background-color: #ffff33;
-  color: #0b2e13;
-  padding: 0.2em 0.4em;
-  border-radius: 3px;
-}
-
-/* Home page layout constraint */
-.home-container {
+/* ==== Layout containers ==== */
+.home-container, .container {
   max-width: 800px;
   margin: 0 auto;
-  padding: 1.5rem;
-}
-
-/* ==== Optional Container Styling ==== */
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 1rem;
+  padding: 2rem 1.5rem;
 }
