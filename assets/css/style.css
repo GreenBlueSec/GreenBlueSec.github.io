@@ -72,18 +72,18 @@ body {
   position: relative;
 }
 
-/* Dark forest floor backdrop, pinned to the viewport so it scrolls slower
+/* Dark forest floor photo, pinned to the viewport so it scrolls slower
    than the page content (a fully-static layer is the strongest, most
    reliable form of that "slow parallax" effect without JS). Layers, top
-   to bottom: HUD grid + scanlines, neon "firefly" glows, mossy/soil
-   blotches, fine organic grain, solid soil base. */
+   to bottom: HUD grid + scanlines, neon "firefly" glows, a darkening
+   wash + vignette for text contrast, then the photo itself. */
 body::before {
   content: "";
   position: fixed;
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  background-color: #120f0a;
+  background-color: #0a0c08;
   background-image:
     linear-gradient(rgba(57, 230, 115, 0.045) 1px, transparent 1px),
     linear-gradient(90deg, rgba(57, 230, 115, 0.045) 1px, transparent 1px),
@@ -93,15 +93,13 @@ body::before {
     radial-gradient(100px 80px at 55% 15%, var(--glow-yellow), transparent 70%),
     radial-gradient(90px 70px at 88% 12%, var(--glow-pink), transparent 70%),
     radial-gradient(130px 100px at 8% 82%, var(--glow-blue), transparent 70%),
-    radial-gradient(ellipse 60% 45% at 20% 20%, rgba(28, 48, 26, 0.65), transparent 70%),
-    radial-gradient(ellipse 55% 40% at 82% 30%, rgba(20, 34, 20, 0.6), transparent 70%),
-    radial-gradient(ellipse 65% 50% at 35% 80%, rgba(46, 34, 20, 0.55), transparent 70%),
-    radial-gradient(ellipse 50% 45% at 90% 90%, rgba(24, 40, 24, 0.6), transparent 70%),
-    radial-gradient(ellipse 70% 55% at 60% 55%, rgba(35, 27, 16, 0.5), transparent 75%),
-    url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%27240%27%20height%3D%27240%27%3E%3Cfilter%20id%3D%27n%27%3E%3CfeTurbulence%20type%3D%27fractalNoise%27%20baseFrequency%3D%270.85%27%20numOctaves%3D%272%27%20stitchTiles%3D%27stitch%27/%3E%3CfeColorMatrix%20type%3D%27matrix%27%20values%3D%270%200%200%200%200.11%20%200%200%200%200%200.14%20%200%200%200%200%200.07%20%200%200%200%200.5%200%27/%3E%3C/filter%3E%3Crect%20width%3D%27100%25%27%20height%3D%27100%25%27%20filter%3D%27url%28%23n%29%27/%3E%3C/svg%3E"),
-    radial-gradient(ellipse at 50% 100%, rgba(0, 0, 0, 0.55), transparent 60%);
-  background-size: 48px 48px, 48px 48px, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, 240px 240px, auto;
-  background-blend-mode: normal, normal, normal, screen, screen, screen, screen, screen, normal, normal, normal, normal, normal, overlay, normal;
+    linear-gradient(rgba(6, 8, 6, 0.5), rgba(6, 8, 6, 0.65)),
+    radial-gradient(ellipse at 50% 100%, rgba(0, 0, 0, 0.6), transparent 60%),
+    url("/assets/images/forest-floor.jpg");
+  background-repeat: repeat, repeat, repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, center center;
+  background-size: 48px 48px, 48px 48px, auto, auto, auto, auto, auto, auto, auto, auto, cover;
+  background-blend-mode: normal, normal, normal, screen, screen, screen, screen, screen, normal, normal, normal;
 }
 
 a:focus-visible,
