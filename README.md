@@ -1,6 +1,6 @@
 # GreenBlueSecurity
 
-## Hullo, I'm Abraham — a security engineer focused on identity & access management, incident response, and detection engineering.
+## Hullo, I'm Abe — a security engineer focused on identity & access management, incident response, and detection engineering.
 
 I've spent the last 8 years in security operations and engineering. This repo is where I share what I'm building, learning, and teaching along the way: blue team techniques, security automation, and mentorship for people earlier in their career than me.
 
@@ -30,11 +30,11 @@ I've spent the last 8 years in security operations and engineering. This repo is
 ![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)
 
 ### 📊 GitHub Activity
-![Abraham's GitHub stats](https://github-readme-stats.vercel.app/api?username=GreenBlueSec&show_icons=true&theme=tokyonight&hide=stars)
+![Abe's GitHub stats](https://github-readme-stats.vercel.app/api?username=GreenBlueSec&show_icons=true&theme=tokyonight&hide=stars)
 
 ### 🤝 Connect & Collaborate
-- Professional background: [LinkedIn](https://www.linkedin.com/in/abrahamjudisch-507sec/)
+- Professional background: [LinkedIn](https://www.linkedin.com/in/abe-507sec/)
 - Technical writing: [Security Blog](https://greenblueSec.github.io)
-- Collaboration: [abraham.judisch@gmail.com](mailto:abraham.judisch@gmail.com)
+- Collaboration: [Email](mailto:greenbluesec@proton.me)
 
 ![Visitor Count](https://komarev.com/ghpvc/?username=GreenBlueSec&color=0078d4)
