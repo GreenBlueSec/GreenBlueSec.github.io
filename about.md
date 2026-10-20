@@ -15,10 +15,10 @@ I am proud to call Minnesota my home. I love my family, animals, Earth, karate, 
  - TV Shows: It's Always Sunny, Trailer Park Boys, Clone Wars, Workaholics, Narcos, Letterkenny, Band of Brothers
  - Science & Tech: [Jackie Singh](https://www.hackingbutlegal.com/), [Brian Krebs](https://krebsonsecurity.com/), [Kim Zetter](https://www.zetter-zeroday.com/), [Jaron Lanier](https://www.jaronlanier.com/), [Timnit Gebru](https://dair-institute.org/team/timnit-gebru/)
 
-Me IRL:<br>![karate]({{ '/assets/gifs/KarateMac.gif' | relative_url }})
+{% include figure.html src="/assets/gifs/KarateMac.gif" alt="Karate" caption="Me IRL" %}
 
 ## Me Blog
-I’ve started Green Blue Security to share my journey in cybersecurity (for more on this please read [Introduction]({% post_url 2026-01-15-introduction %})). Here I will publish original Information Security analysis and research covering Current Events, Data Privacy, Grassroots & Open-Source Technology, Information Gathering, Mobile Security and a lot of personal opinions. I know cybersecurity is universally and vitally important; Jackie Singh explained my reasons better than I ever could:
+I’ve started Green Blue Security to share my journey in cybersecurity (for more on this please read [Introduction]({% post_url 2026-10-20-introduction %})). Here I will publish original Information Security analysis and research covering Current Events, Data Privacy, Grassroots & Open-Source Technology, Information Gathering, Mobile Security and a lot of personal opinions. I know cybersecurity is universally and vitally important; Jackie Singh explained my reasons better than I ever could:
 > I treat cybersecurity not as an abstract engineering discipline, but as critical infrastructure for democratic participation, personal safety, and institutional accountability. - Singh via [Hacking, but Legal](https://www.hackingbutlegal.com/)
 
 For my purposes, I will focus on 1) Personal Safety to support 2) Democratic Participation in order to establish 3) Institutional Accountability. It is the peoples responsibility to hold institutions accountable; institutional accountability has never happened on its own.

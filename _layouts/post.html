@@ -7,8 +7,12 @@ layout: default
     <div class="post-meta">
       <span class="post-date">{{ page.date | date: "%B %d, %Y" }}</span>
       {% if page.area %}<span class="post-area">{{ page.area }}</span>{% endif %}
+      {% if page.status == "in-progress" %}<span class="post-status">In Progress</span>{% endif %}
     </div>
   </header>
+  {% if page.status == "in-progress" %}
+  <p class="post-notice">// Work in progress. This post is being written in the open and will change.</p>
+  {% endif %}
   <div class="post-body">
     {{ content }}
   </div>

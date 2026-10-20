@@ -13,6 +13,7 @@ permalink: /blog/
     <div class="post-meta">
       <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
       {% if post.area %}<span class="post-area">{{ post.area }}</span>{% endif %}
+      {% if post.status == "in-progress" %}<span class="post-status">In Progress</span>{% endif %}
     </div>
     <div class="post-excerpt">{{ post.excerpt }}</div>
     <a class="read-more" href="{{ post.url }}">Read More &rarr;</a>

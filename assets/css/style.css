@@ -4,19 +4,6 @@
    - JetBrains Mono: https://github.com/JetBrains/JetBrainsMono (Apache 2.0)
    Fallback stack below works with zero downloads if you skip that step. */
 
-@font-face {
-  font-family: 'Inter';
-  src: url('/assets/fonts/Inter-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'JetBrains Mono';
-  src: url('/assets/fonts/JetBrainsMono-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-display: swap;
-}
-
 :root {
   --bg: #0c0a06;
   --bg-panel: #0c1210;
@@ -433,6 +420,28 @@ footer, .site-footer {
   font-size: 0.72rem;
 }
 
+.post-status {
+  color: var(--neon-pink);
+  border: 1px solid var(--neon-pink);
+  box-shadow: 0 0 8px var(--glow-pink), inset 0 0 6px var(--glow-pink);
+  padding: 0.15em 0.6em;
+  border-radius: 2px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+}
+
+.post-notice {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  border-left: 3px solid var(--neon-pink);
+  background: var(--bg-panel-raised);
+  padding: 0.7em 1em;
+  margin: 0 0 1.5rem;
+}
+
 .post-header {
   margin-bottom: 1.5rem;
   padding-bottom: 1.5rem;
@@ -589,4 +598,13 @@ footer, .site-footer {
   .site-nav {
     padding: 0.85rem 1.25rem;
   }
+}
+
+.post-figure { margin: 1.5rem 0; }
+.post-figure img { max-width: 100%; height: auto; border: 1px solid var(--border); }
+.post-figure figcaption {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  margin-top: 0.4em;
 }
